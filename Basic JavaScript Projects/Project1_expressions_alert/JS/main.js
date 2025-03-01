@@ -9,3 +9,5 @@ var B = "Concatenated" + " String";
 document.write(B);
 var name ="Alex John", address="631, unknown street", phoneNumber="6479999999";
 document.write(phoneNumber);
+var exp = 3+3;
+document.write(exp);
