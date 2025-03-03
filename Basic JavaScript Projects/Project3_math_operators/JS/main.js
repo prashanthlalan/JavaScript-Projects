@@ -14,3 +14,7 @@ function myDivision () {
     var division = 16/2;
     document.getElementById("Math4").innerHTML = "16 / 2 =" + division;
 }
+function myMultiOperators () {
+    var moremath = (22*5)/2+6-28;
+    document.getElementById("Math4").innerHTML = "(22*5)/2+6-28 = " + moremath ;
+}
