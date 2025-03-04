@@ -18,3 +18,7 @@ function myMultiOperators () {
     var moremath = (22*5)/2+6-28;
     document.getElementById("Math4").innerHTML = "(22*5)/2+6-28 = " + moremath ;
 }
+function ModulusOperator () {
+    var modulus =56%6;
+    document.getElementById("Math6").innerHTML = "Reminder of 56 divided by 6 is " + modulus;
+}
