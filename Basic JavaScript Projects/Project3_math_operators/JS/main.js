@@ -28,9 +28,15 @@ function negation_Operator () {
 }
 function Increment () {
     var x = 15;
-    document.getElementById("Math8").innerHTML = x++;
+    x++;
+    document.getElementById("Math8").innerHTML = x;
 }
 function Decrement () {
     var y = 26;
-    document.getElementById("Math9").innerHTML = y--;
+    y--;
+    document.getElementById("Math9").innerHTML = y;
+}
+function Random () {
+    var a = Math.round(Math.random()*500);
+    document.getElementById("Math10").innerHTML = a; 
 }
