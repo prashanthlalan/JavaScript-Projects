@@ -16,9 +16,21 @@ function myDivision () {
 }
 function myMultiOperators () {
     var moremath = (22*5)/2+6-28;
-    document.getElementById("Math4").innerHTML = "(22*5)/2+6-28 = " + moremath ;
+    document.getElementById("Math5").innerHTML = "(22*5)/2+6-28 = " + moremath ;
 }
 function ModulusOperator () {
-    var modulus =56%6;
-    document.getElementById("Math6").innerHTML = "Reminder of 56 divided by 6 is " + modulus;
+    var modulus =56 % 6;
+    document.getElementById("Math6").innerHTML = "Reminder for 56 divided by 6 is " + modulus;
+}
+function negation_Operator () {
+    var z = 20;
+    document.getElementById("Math7").innerHTML = -z;
+}
+function Increment () {
+    var x = 15;
+    document.getElementById("Math8").innerHTML = x++;
+}
+function Decrement () {
+    var y = 26;
+    document.getElementById("Math9").innerHTML = y--;
 }
