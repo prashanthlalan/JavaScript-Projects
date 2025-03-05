@@ -4,5 +4,6 @@ function Func_Dictionary() {
         type:"Bird",
         favorite_food:"Seeds" 
     };
+    delete Parrot.Color;
     document.getElementById("Dictionary").innerHTML = Parrot.Color;
 }
