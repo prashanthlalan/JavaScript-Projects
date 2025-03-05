@@ -4,6 +4,6 @@ function Func_Dictionary() {
         type:"Bird",
         favorite_food:"Seeds" 
     };
-    delete Parrot.Color;
+    delete Parrot.Color; //This removes the Color from the Dictionary before it is displayed 
     document.getElementById("Dictionary").innerHTML = Parrot.Color;
 }
