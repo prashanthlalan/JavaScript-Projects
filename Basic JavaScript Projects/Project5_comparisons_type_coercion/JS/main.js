@@ -10,3 +10,12 @@ function Negative_infinity() {
     var infinity_negative = document.write(-3E310);
     document.getElementById("Minus_Infinity").innerHTML = infinity_negative;
 }
+function Boolean_Logic() {
+    var Boolean = document.write(10>12);
+    document.getElementById("Boolean_Operator").innerHTML = Boolean;
+}
+console.log(2+2)
+function Double_Equal_Signs(){
+    var isEqual =document.write(10==5*2)
+    document.getElementById("Equals").innerHTML = isEqual;
+}
