@@ -35,3 +35,11 @@ function same_data_type_different_value() {
     var sdtdv = document.write("10"==="12")
     document.getElementById("differentBoth").innerHTML =sdtdv;
 }
+function andLogic() {
+    var andl = document.write(15>10 && 6<12)
+    document.getElementById("and").innerHTML =andl;
+}
+function orLogic() {
+    var orl = document.write(6>10 || 6>12)
+    document.getElementById("or").innerHTML =orl;
+}
