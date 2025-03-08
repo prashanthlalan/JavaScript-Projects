@@ -38,7 +38,7 @@ function get_Date() {
     }
 }
 
-/Defining Category_Function to display 
+//Defining Category_Function to display 
 function Category_Function() {
     Age = document.getElementById("Age").value;
     if (Age <= 1) {
