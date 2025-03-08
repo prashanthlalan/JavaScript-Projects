@@ -37,3 +37,11 @@ function get_Date() {
         document.getElementById("Greeting").innerHTML = "How are you today?";
     }
 }
+
+//Defining Category_Function to display 
+function Category_Function() {
+    age = document.getElementById("input");
+    if (age < 20) {
+        document.getElementById("result").innerHTML = "You are a teenager!"
+    }  
+}
