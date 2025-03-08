@@ -38,13 +38,27 @@ function get_Date() {
     }
 }
 
-//Defining Category_Function to display 
+/Defining Category_Function to display 
 function Category_Function() {
     Age = document.getElementById("Age").value;
-    if (Age <= 20) {
-        document.getElementById("result").innerHTML = "You are a teenager!";    
+    if (Age <= 1) {
+        document.getElementById("result").innerHTML = "You are a infant!";    
+    }
+    else if (Age >= 2 && Age <= 4) {
+        document.getElementById("result").innerHTML = "You are a toddler!";
+    }
+    else if (Age >= 5 && Age <= 12) {
+        document.getElementById("result").innerHTML = "You are a child!";
+    }
+    else if (Age >= 13 && Age <= 19) {
+        document.getElementById("result").innerHTML = "You are a teen!";
+    }
+    else if (Age >= 20 && Age <= 39) {
+        document.getElementById("result").innerHTML = "You are a adult!";
+    }
+    else if (Age >= 40 && Age <= 59) {
+        document.getElementById("result").innerHTML = "You are a middle aged adult!";
     }
     else {
-        document.getElementById("result").innerHTML = "You are not a teenager!";
-    } 
-}
+        document.getElementById("result").innerHTML = "You are a senior adult!";
+    }
