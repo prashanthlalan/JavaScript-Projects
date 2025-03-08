@@ -40,8 +40,11 @@ function get_Date() {
 
 //Defining Category_Function to display 
 function Category_Function() {
-    age = document.getElementById("input");
-    if (age < 20) {
-        document.getElementById("result").innerHTML = "You are a teenager!"
-    }  
+    Age = document.getElementById("Age").value;
+    if (Age <= 20) {
+        document.getElementById("result").innerHTML = "You are a teenager!";    
+    }
+    else {
+        document.getElementById("result").innerHTML = "You are not a teenager!";
+    } 
 }
