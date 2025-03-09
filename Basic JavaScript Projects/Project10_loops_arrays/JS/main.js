@@ -32,3 +32,10 @@ function constant_function() {
     document.getElementById("Constant").innerHTML = "The cost of the " + BMW.color + " color " +
     BMW.model + " was " + BMW.price;
 }
+var X = 82;
+document.write(X);
+{
+    let X = 33;
+    document.write("<br>" + X);
+}
+document.write("<br>" + X)
