@@ -1,3 +1,4 @@
+//A function using a while loop
 function Call_Loop() {
     var Digit = "";
     var X = 1;
@@ -7,6 +8,8 @@ function Call_Loop() {
     } 
     document.getElementById("Loop").innerHTML = Digit;
 }
+
+//A function using a for loop
 var Instruments = ["Guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flute"];
 var Content = "";
 var Y;
@@ -16,6 +19,8 @@ function for_Loop() {
     }
     document.getElementById("List_of_Instruments").innerHTML = Content;        
 }
+
+//A function with an array
 function array_Function() {
     var Cat_Picture = [];
     Cat_Picture[0] = "sleeping";
@@ -25,6 +30,8 @@ function array_Function() {
     document.getElementById("Array").innerHTML = "In this picture, the cat is " +
     Cat_Picture[2] + ".";
 }
+
+//A function with const
 function constant_function() {
     const BMW = {model: "BMW X1", category: "SUV", price:60000, color:"black"}
     BMW.color ="red";
@@ -39,6 +46,8 @@ document.write(X);
     document.write("<br>" + X);
 }
 document.write("<br>" + X)
+
+//Creating an object with the let keyword
 function let_function() {
     let car = {
         make: "Dodge ",
