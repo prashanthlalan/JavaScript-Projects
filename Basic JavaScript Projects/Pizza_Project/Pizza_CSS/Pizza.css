@@ -20,7 +20,7 @@ div {
     }
 
 #frmMenu {
-    width: 400px;
+    width: 600px;
     height: 200px;
     }
 
@@ -34,13 +34,19 @@ div {
 .left {
     width:200px;
     height: 200px;
-    float: right;
+    float: left;
+}
+
+.center {
+    width:200px;
+    height: 200px;
+    float: left;
 }
 
 .right {
     width: 200px;
     height: 200px;
-    float: left;
+    float: right;
 }
 
 #showText {
